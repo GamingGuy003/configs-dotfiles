@@ -13,14 +13,15 @@
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
-  boot.initrd.systemd.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  # boot.initrd.systemd.enable = true;
+  # boot.loader.efi.canTouchEfiVariables = true;
   # plymouth
-  boot.plymouth.enable = true;
-  boot.plymouth.theme = "breeze";  
+  # boot.plymouth.enable = true;
+  # boot.plymouth.theme = "breeze";  
   boot.kernelParams = [
-	  # "quiet"
-	  "splash"
+    # "quiet"
+    # "splash"
+    "verbose"
   ];
 
   networking.hostName = "nixo"; # Define your hostname.
@@ -158,12 +159,18 @@
 	  "vulkan"
   ];
 
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true;
+    dedicatedServer.openFirewall = true;
+  };
+
   # vscode server
   services.vscode-server.enable = true;
 
   environment.systemPackages = with pkgs; [
     vim
-  	wget
+    wget
     neovim
     helix
     pfetch
