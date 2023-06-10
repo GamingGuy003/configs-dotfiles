@@ -149,14 +149,14 @@
 
   # mesa
   hardware.opengl = {
-	  enable = true;
+    enable = true;
     driSupport = true;
     driSupport32Bit = true;
   };
   
   services.xserver.videoDrivers = [
-	  "modesetting"
-	  "vulkan"
+    "modesetting"
+    "vulkan"
   ];
 
   programs.steam = {
@@ -177,6 +177,7 @@
     discord
     google-chrome
     htop
+    ranger
     spotify
     prismlauncher
     speedtest-cli
