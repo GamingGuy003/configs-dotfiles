@@ -8,13 +8,13 @@
     "height": 0,
     "modules-left": [
         "clock",
-        "wlr/workspaces"
+        "wlr/workspaces",
+        "tray"
     ],
     "modules-center": [
         "hyprland/window"
     ],
     "modules-right": [
-        "tray",
         "battery",
         "backlight",
         "pulseaudio",
