@@ -13,11 +13,12 @@
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
+  boot.consoleLogLevel = 0;
   # boot.initrd.systemd.enable = true;
   # boot.loader.efi.canTouchEfiVariables = true;
   # plymouth
   # boot.plymouth.enable = true;
-  # boot.plymouth.theme = "breeze";  
+  #boot.plymouth.theme = "mocha";  
   boot.kernelParams = [
     # "quiet"
     # "splash"
@@ -60,6 +61,12 @@
   # services.xserver.desktopManager.cinnamon.enable = true;
   # Hyprland
   programs.hyprland.enable = true;
+  programs.waybar = {
+    enable = true;
+    package = pkgs.waybar.overrideAttrs (oldAttrs: {
+      mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+    });
+  };
 
   # Configure keymap in X11
   services.xserver = {
@@ -155,7 +162,10 @@
     driSupport = true;
     driSupport32Bit = true;
   };
-  
+
+  hardware.bluetooth.enable = true;
+  services.blueman.enable = true;
+
   services.xserver.videoDrivers = [
     "modesetting"
     "vulkan"
@@ -198,14 +208,34 @@
     burpsuite
     krita
     whatsapp-for-linux
+    # graphics
     vulkan-loader
     vulkan-validation-layers
     vulkan-tools
+    # hyprland
     kitty
     wofi
+    cinnamon.nemo
+    themechanger
+    pamixer
+    gnome.gucharmap
+    light
+    networkmanagerapplet
+    hyprpaper
+    libsForQt5.qtstyleplugin-kvantum
+    qtstyleplugin-kvantum-qt4
+    wayshot
+    pavucontrol
+    # themes
+    catppuccin-kde
+    catppuccin-gtk
+    catppuccin-kvantum
+    catppuccin-cursors
+    catppuccin-papirus-folders
+    # vscode
     (vscode-with-extensions.override {
       vscodeExtensions = with vscode-extensions; [
-        vscode-extensions.ms-vscode-remote.remote-ssh
+        ms-vscode-remote.remote-ssh
         rust-lang.rust-analyzer
         serayuzgur.crates
         bungcip.better-toml
@@ -214,5 +244,32 @@
         piousdeer.adwaita-theme
       ];
     })
-  ];  
+  ];
+  
+  fonts.fonts = with pkgs; [
+    proggyfonts
+    emojione
+    noto-fonts
+    noto-fonts-cjk
+    noto-fonts-emoji
+    fira
+    fira-code
+    fira-mono
+    iosevka
+    hack-font
+    terminus_font
+    anonymousPro
+    freefont_ttf
+    corefonts
+    dejavu_fonts
+    inconsolata
+    ubuntu_font_family
+    ttf_bitstream_vera
+    nerdfonts
+    terminus-nerdfont
+    font-awesome
+    font-awesome_5
+    font-awesome_4
+  ]; 
 }
+

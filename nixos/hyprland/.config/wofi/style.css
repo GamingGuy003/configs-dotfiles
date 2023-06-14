@@ -1,35 +1,29 @@
 window {
-  margin: 0px;
-  # border: 1px solid #bd93f9;
-  background-color: #282a36;
-  font-family: Cousine Nerd Font;
+    border: none;
+    background-color: #1e1e2e;
 }
 
 #input {
-  margin: 5px;
-  border: none;
-  color: #f8f8f2;
-  background-color: #44475a;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #272744;
 }
 
-#inner-box {
-  margin: 5px;
-  border: none;
-  background-color: #282a36;
+#entry {
+    border-radius: 5px;
+    outline: none;
+    background-color: #1e1e2e;
+}
+
+#entry:selected {
+    background-color: #272744;
 }
 
 #outer-box {
-  margin: 5px;
-  border: none;
-  background-color: #282a36;
+    padding: 5px;
 }
 
-#text {
-  margin: 5px;
-  border: none;
-  color: #f8f8f2;
-} 
-
-#entry:selected {
-  background-color: #44475a;
+#inner-box {
+    padding: 5px;
+    background-color: #1e1e2e;
 }

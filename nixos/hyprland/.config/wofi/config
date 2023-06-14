@@ -1,10 +1,11 @@
 show=drun
-prompt=search
+prompt=
 normal_window=true
 allow_images=true
 allow_markup=true
 term=kitty
 gtk_dark=true
+hide_scroll=true
 key_expand=Right
 key_down=Down
 key_up=Up

@@ -1,0 +1,132 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passtrough": false,
+    "gtk-layer-shell": true,
+    "height": 0,
+    "modules-left": [
+        "clock",
+        "wlr/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "tray",
+        "battery",
+        "backlight",
+        "pulseaudio",
+        "pulseaudio#microphone",
+        "bluetooth",
+        "network",
+        "custom/power"
+    ],
+
+    "hyprland/window": {
+        "format": "{}",
+    },
+    "wlr/workspaces": {
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "all-outputs": true,
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "urgent": "",
+            "active": "",
+            "default": ""
+          }
+    },
+
+    "tray": {
+        "icon-size": 13,
+        "tooltip": false,
+        "spacing": 5
+    },
+    "clock": {
+        "format": "{:󰥔 %R  󰃭 %d/%m}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "battery": {
+        "states": {
+            "warning": 25,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}% {time}",
+        "format-charging": "󰂄 {capacity}% {time}",
+        "format-plugged": "󰚥 {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-full": "󱟢 {capacity}%",
+        "format-time": "{H}h{M}m",        
+        "format-icons": {
+            "default": ["󰂃", "󰁼", "󰁾", "󰁿", "󰂂"]
+        }
+    },
+    "backlight": {
+        "scroll-step": 2.5,
+        "format-icons": ["󱩏", "󱩑", "󱩒", "󱩔", "󱩖", "󰛨"],
+        "format": "{icon} {percent}%",
+        "reverse-scrolling": true
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "tooltip": false,
+        "format-muted": "󰝟 Muted",
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol",
+        "on-scroll-up": "pamixer -d 5",
+        "on-scroll-down": "pamixer -i 5",
+        "scroll-step": 5,
+        "format-icons": {
+            "headphone": "󰋋",
+            "hands-free": "󰋋",
+            "headset": "󰋋",
+            "phone": "󰏲",
+            "portable": "󰏲",
+            "car": "󰄋",
+            "default": ["󰕿", "󰖀", "󰕾"]
+        }
+    },
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "tooltip": false,
+        "format-source": " {volume}%",
+        "format-source-muted": "󰍭 Muted",
+        "on-click": "pamixer --default-source -t",
+        "on-scroll-up": "pamixer --default-source -i 5",
+        "on-scroll-down": "pamixer --default-source -d 5",
+        "scroll-step": 5
+    },
+    "bluetooth": {
+        "format-on": "󰂰",
+        "format-off": "󰂯",
+        "format-disabled": "󰂲",
+        "format-connected": "󰂯 {device_alias}",
+        "on-click": "blueman-manager"
+    },
+    "network": {
+        "format-wifi": "{icon}",
+        "format-ethernet": "󰈀",
+        "format-linked": "",
+        "format-disabled": "w",
+        "format-disconnected": "",
+        "format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"],
+        "max-length": 30,
+        "tooltip-format": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected",
+        "tooltip-format-wifi": "{ifname} {essid} ({signalStrength}%)\n{ipaddr}",
+        "tooltip-format-ethernet": "{ifname}\n{ipaddr}",
+        "on-click": "$HOME/.config/scripts/wofi-wifi.sh"
+    },
+    "custom/power" : {
+        "format": "⏻",
+        "on-click": "$HOME/.config/scripts/wofi-power.sh"
+    }
+}
