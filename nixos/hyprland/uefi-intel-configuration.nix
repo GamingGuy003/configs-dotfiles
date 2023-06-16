@@ -67,6 +67,11 @@
       mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
     });
   };
+  
+  environment.variables = {
+    "QT_STYLE_OVERRIDE"="kvantum";
+    #"QT_QPA_PLATFORMTHEME"="qt5ct";
+  };
 
   # Configure keymap in X11
   services.xserver = {
@@ -202,12 +207,10 @@
     nextcloud-client
     gnome.evince
     gnome.cheese
-    evince
-    pkg-config
-    postman
-    burpsuite
-    krita
+    gnome.dconf-editor
+    gthumb
     whatsapp-for-linux
+    # bottles
     # graphics
     vulkan-loader
     vulkan-validation-layers
@@ -226,12 +229,26 @@
     qtstyleplugin-kvantum-qt4
     wayshot
     pavucontrol
+    glib
+    gsettings-desktop-schemas
     # themes
-    catppuccin-kde
-    catppuccin-gtk
-    catppuccin-kvantum
+    (catppuccin-gtk.override {
+      accents = [ "lavender" ]; 
+      variant = "frappe";
+    })
+    (catppuccin-kde.override {
+      accents = [ "lavender" ]; 
+      flavour = [ "frappe"];
+    })
+    #(catppuccin-kvantum.override {
+    #  accent = "Lavender";
+    #  variant = "Frappe";
+    #})
     catppuccin-cursors
-    catppuccin-papirus-folders
+    (catppuccin-papirus-folders.override {
+      accent = "lavender";
+      flavor = "frappe";
+    })
     # vscode
     (vscode-with-extensions.override {
       vscodeExtensions = with vscode-extensions; [
@@ -245,6 +262,7 @@
       ];
     })
   ];
+
   
   fonts.fonts = with pkgs; [
     proggyfonts
