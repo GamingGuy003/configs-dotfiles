@@ -7,9 +7,9 @@ case $selected in
   logout)
     swaymsg exit;;
   suspend)
-    exec systemctl suspend;;
+    exec suspend;;
   reboot)
-    exec systemctl reboot;;
+    exec reboot;;
   shutdown)
-    exec systemctl poweroff -i;;
+    exec poweroff;;
 esac
