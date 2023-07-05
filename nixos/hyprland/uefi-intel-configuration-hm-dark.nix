@@ -70,7 +70,7 @@
   };
   
   environment.variables = {
-    "QT_STYLE_OVERRIDE"="kvantum";
+    #"QT_STYLE_OVERRIDE"="kvantum";
     #"QT_QPA_PLATFORMTHEME"="qt5ct";
   };
 
@@ -233,24 +233,6 @@
     grim
     slurp
     gsettings-desktop-schemas
-    # themes
-    #(catppuccin-gtk.override {
-    #  accents = [ "lavender" ]; 
-    #  variant = "frappe";
-    #})
-    #(catppuccin-kde.override {
-    #  accents = [ "lavender" ]; 
-    #  flavour = [ "frappe"];
-    #})
-    #(catppuccin-kvantum.override {
-    #  accent = "Lavender";
-    #  variant = "Frappe";
-    #})
-    #catppuccin-cursors
-    #(catppuccin-papirus-folders.override {
-    #  accent = "lavender";
-    #  flavor = "frappe";
-    #})
     # vscode
     (vscode-with-extensions.override {
       vscodeExtensions = with vscode-extensions; [
@@ -295,13 +277,19 @@
   home-manager.users.gamingguy003 = { pkgs, ... }: {
     home = {
       stateVersion = "23.11"; # System version upon creation
-      pointerCursor = {
-        name = "Catppuccin-Frappe-Blue-Cursors";
-        package = pkgs.catppuccin-cursors;
-        size = 12;
-        gtk.enable = true;
-      };
-      sessionVariables.GTK_THEME = "Catppuccin-Frappe-Standard-Lavender-Dark";      
+      #pointerCursor = {
+      #  name = "Catppuccin-Frappe-Blue-Cursors";
+      #  package = pkgs.catppuccin-cursors;
+      #  size = 12;
+      #  gtk.enable = true;
+      #};
+      #sessionVariables.GTK_THEME = "Catppuccin-Frappe-Standard-Lavender-Dark";      
+    };
+
+    qt = {
+      enable = true;
+
+      platformTheme = "gtk";
     };
     
     gtk = {
@@ -312,14 +300,26 @@
         package = pkgs.catppuccin-papirus-folders;
       };
 
-      theme = {
-        name = "Catppuccin-Frappe-Standard-Lavender-Dark";
-        package = (pkgs.catppuccin-gtk.override {
-          accents = [ "lavender" ];
-          variant = "frappe";
-        });
+      cursorTheme = {
+        name = "Catppuccin-Frappe-Blue-Cursors";
+        package = pkgs.catppuccin-cursors;
       };
 
+      theme = {
+        name = "Adwaita-dark";
+      };
+      
+      gtk3.extraConfig = {
+        Settings = ''
+          gtk-application-prefer-dark-theme=true
+        '';
+      };
+
+      gtk4.extraConfig = {
+        Settings = ''
+          gtk-application-prefer-dark-theme=true
+        '';
+      };
     };
   }; 
 }
