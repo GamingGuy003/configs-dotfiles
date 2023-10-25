@@ -1,11 +1,16 @@
 [Default Applications]
 x-scheme-handler/http=google-chrome.desktop
 x-scheme-handler/https=google-chrome.desktop
-text/html=google-chrome.desktop
+text/html=teams-for-linux.desktop
 application/xhtml+xml=org.gnome.Epiphany.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 x-scheme-handler/postman=Postman.desktop
+text/plain=Helix.desktop
+x-scheme-handler/msteams=teams-for-linux.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_nix_store_kmvhh47w8bfipccidgdxp2pryrypsmaj-eclipse-java-4.28_eclipse_.desktop
+application/pdf=org.gnome.Evince.desktop
+application/zip=org.gnome.FileRoller.desktop
 
 [Added Associations]
 x-scheme-handler/http=org.gnome.Epiphany.desktop;
@@ -14,3 +19,6 @@ text/html=org.gnome.Epiphany.desktop;
 application/xhtml+xml=org.gnome.Epiphany.desktop;
 x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
 x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+text/plain=Helix.desktop;
+application/pdf=org.gnome.Evince.desktop;
+application/zip=org.gnome.FileRoller.desktop;

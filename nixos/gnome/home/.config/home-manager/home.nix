@@ -98,17 +98,43 @@
       # diverse
       kitty
       marktext
+      bitwarden
+      libreoffice
+      dialect
+      teams-for-linux
+      remmina
+      # Hyprland
+      wofi
+      hyprpaper
       # games
       prismlauncher
+      steam-run
+      rare
+      bottles
       # vscode
       (vscode-with-extensions.override {
         vscodeExtensions = with vscode-extensions; [
+          # rust
           rust-lang.rust-analyzer
           serayuzgur.crates
           tamasfe.even-better-toml
           piousdeer.adwaita-theme
+          # java
+          redhat.java
+          # VisualStudioExptTeam.vscodeintellicode
+          vscjava.vscode-java-dependency
+          vscjava.vscode-java-test
+        ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+          {
+            name = "vscodeintellicode";
+            publisher = "VisualStudioExptTeam";
+            version = "1.2.30";
+            sha256 = "f2Gn+W0QHN8jD5aCG+P93Y+JDr/vs2ldGL7uQwBK4lE=";
+          }
         ];
       })
+      # tools
+      openshot-qt
     ]) ++ (with pkgs.gnomeExtensions; [
       workspace-indicator-2
       appindicator
