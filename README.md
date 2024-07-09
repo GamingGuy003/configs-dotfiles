@@ -9,3 +9,5 @@ The nixos folder contains configs for various setups also including homemanager 
 ## Fedora
 
 This contains my desktop Fedora Hyprland setup including a few of the utilities configs like fuzzel
+
+![Screenshot](./fedora/hyprland/screenshot.png)
