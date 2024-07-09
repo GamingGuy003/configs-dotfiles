@@ -1,0 +1,108 @@
+/*
+#414868; borders
+#1a1b26; background
+#c0caf5: foreground
+#545c7e: inactive
+#ffffff: active
+#e0af68: warning
+#f7768e: power
+ */
+
+* {
+  font-family: "jetbrains-nerd-fonts-mono";
+}
+
+window#waybar {
+  background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+#workspaces button.active,
+#submap,
+#window,
+#perf,
+#pulseaudio,
+#clock,
+#tray {
+  color: #c0caf5;
+}
+
+
+/* inner sideways padding needed */
+#submap,
+#window,
+#tray,
+#perf,
+#pulseaudio,
+#clock {
+  padding: 0 10px;
+}
+
+/* margin right needed */
+#workspaces,
+#submap,
+#window,
+#perf,
+#memory,
+#cpu,
+#pulseaudio {
+  margin-right: 5px;
+}
+
+/* margin left needed */
+#submap,
+#window,
+#perf,
+#cpu,
+#custom-gpu-usage,
+#pulseaudio,
+#clock {
+  margin-left: 5px;
+}
+
+/* default background and borders */
+#workspaces,
+#window,
+#submap,
+#perf,
+#pulseaudio,
+#clock,
+#tray,
+#custom-power {
+  background: #1a1b26;
+  border-radius: 5px;
+  border: 2px solid #414868;
+}
+
+/* make window module disappear when no focus */
+window#waybar.empty #window {
+  border: transparent;
+  background-color: transparent;
+}
+
+#workspaces button {
+  color: #545c7e;
+}
+
+#workspaces button.urgent {
+  color: #e0af68;
+}
+
+/* needed since we cant add padding right to the clock
+ * or it would be offset on screens where it is the
+ * right most element */
+#tray,
+#custom-power {
+  margin-left: 10px;
+}
+
+#custom-power {
+  padding: 0 12px;
+  color: #f7768e;
+}

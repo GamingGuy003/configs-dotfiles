@@ -1,0 +1,37 @@
+{
+  "modules-right": ["group/perf", "pulseaudio", "clock"],
+  
+  "group/perf": {
+    "orientation": "horizontal",
+    "modules": ["memory", "cpu", "custom/gpu-usage"]
+  },
+
+  "memory": {
+    "format": "  {}%",
+    "interval": 3
+  },
+
+  "cpu": {
+    "format": "  {usage}%",
+    "interval": 3
+  },
+
+  "custom/gpu-usage": {
+    "exec": "cat /sys/class/hwmon/hwmon1/device/gpu_busy_percent",
+    "format": "󰢮  {}%",
+    "return-type": "",
+    "interval": 3
+  },
+  
+  "pulseaudio": {
+    "format": "󰕾  {volume}%",
+    "format-muted": "󰖁  muted",
+    "on-click": "pavucontrol",
+    "ignored-sinks": ["Easy Effects Sink"]
+  },
+
+  "clock": {
+    "format": "󰃭  {:%a %d.%m.%g  󰥔  %H:%M:%S}",
+    "interval": 1
+  }
+}

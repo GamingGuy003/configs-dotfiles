@@ -1,0 +1,7 @@
+{
+  "modules-center": ["hyprland/window"],
+
+  "hyprland/window": {
+    "max-length": 40
+  }
+}

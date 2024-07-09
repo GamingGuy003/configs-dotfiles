@@ -1,0 +1,19 @@
+[{
+  "layer": "top",
+  "output": "!DP-1",
+
+  "include": [
+    "$HOME/.config/waybar/modules-left.json",
+    "$HOME/.config/waybar/modules-center.json",
+    "$HOME/.config/waybar/modules-right-aux.json"
+  ]
+},{
+  "layer": "top",
+  "output": "DP-1",
+
+  "include": [
+    "$HOME/.config/waybar/modules-left.json",
+    "$HOME/.config/waybar/modules-center.json",
+    "$HOME/.config/waybar/modules-right-main.json"
+  ]
+}]
