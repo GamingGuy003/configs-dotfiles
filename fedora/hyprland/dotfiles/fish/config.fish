@@ -4,8 +4,11 @@ if status is-interactive
   alias q='exit'
   alias power='sudo poweroff'
   alias powerpower='sudo reboot'
+  source "$HOME/.cargo/env.fish"
 end
 
 function fish_greeting
 end
 
+
+fish_add_path /home/gamingguy003/.spicetify

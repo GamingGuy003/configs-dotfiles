@@ -14,6 +14,7 @@
 
 window#waybar {
   background: transparent;
+  /* margin-bottom: -10px; */
 }
 
 .modules-left,
@@ -22,6 +23,20 @@ window#waybar {
   margin: 10px;
   margin-bottom: 0px;
 }
+
+/* drop shadow */
+/*
+#workspaces,
+#window,
+#perf,
+#pulseaudio,
+#clock,
+#tray,
+#custom-power {
+  box-shadow: 0 0 3px 2px #1a1b26;
+  margin-bottom: 10px;
+}
+*/
 
 #workspaces button.active,
 #submap,

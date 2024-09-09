@@ -24,11 +24,13 @@
   },
 
   "pulseaudio": {
-    "format": "󰕾  {volume}%",
+    "format": "󰕾  {volume}%   {format_source}",
     "format-muted": "󰖁  muted",
+    "format-source": "󰍬 {volume}%",
+    "format-source-muted": "󰍭 {volume}%",
     "on-click": "pavucontrol",
     "ignored-sinks": ["Easy Effects Sink"]
-   },
+  },
 
   "clock": {
     "format": "󰃭  {:%a %d.%m.%g  󰥔  %H:%M:%S}",
