@@ -10,4 +10,24 @@ The nixos folder contains configs for various setups also including homemanager 
 
 This contains my desktop Fedora Hyprland setup including a few of the utilities configs like fuzzel
 
+Used tools are:
+    - fuzzel
+    - kora-icon-theme
+    - kitty
+    - gnome qt theme
+    - phinger cursors
+    - waybar
+    - hyprpaper
+    - lxpolkit
+    - kdeconnect
+    - nextcloud desktop
+    - openrgb
+    - dunst
+    - playerctl
+    - input-remapper-control
+    - nemo
+    - hyprlock
+    - hyprshot
+    - copyq
+
 ![Screenshot](./fedora/hyprland/screenshot.png)
