@@ -1,0 +1,10 @@
+[copr:copr.fedorainfracloud.org:che:nerd-fonts]
+name=Copr repo for nerd-fonts owned by che
+baseurl=https://download.copr.fedorainfracloud.org/results/che/nerd-fonts/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/che/nerd-fonts/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1

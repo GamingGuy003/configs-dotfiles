@@ -1,0 +1,10 @@
+[copr:copr.fedorainfracloud.org:hazel-bunny:ricing]
+name=Copr repo for ricing owned by hazel-bunny
+baseurl=https://download.copr.fedorainfracloud.org/results/hazel-bunny/ricing/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/hazel-bunny/ricing/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
