@@ -8,19 +8,19 @@
 
   "memory": {
     "format": "  {}%",
-    "interval": 3
+    "interval": 2
   },
 
   "cpu": {
     "format": "  {usage}%",
-    "interval": 3
+    "interval": 1
   },
 
   "custom/gpu-usage": {
     "exec": "cat /sys/class/hwmon/hwmon1/device/gpu_busy_percent",
     "format": "󰢮  {}%",
     "return-type": "",
-    "interval": 3
+    "interval": 1
   },
 
   "pulseaudio": {
