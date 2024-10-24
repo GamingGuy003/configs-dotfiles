@@ -356,7 +356,7 @@
         // Default width of the outline panel.
         "default_width": 300,
         // Where to dock the outline panel. Can be 'left' or 'right'.
-        "dock": "left",
+        "dock": "right",
         // Whether to show file icons in the outline panel.
         "file_icons": true,
         // Whether to show folder icons or chevrons for directories in the outline panel.
