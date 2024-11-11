@@ -1,0 +1,61 @@
+Bitwarden	com.bitwarden.desktop	2024.9.0	stable	system
+Portal for Teams	com.github.IsmaelMartinez.teams_for_linux	1.11.2	stable	system
+Protontricks	com.github.Matoking.protontricks	1.12.0	stable	system
+Flatseal	com.github.tchx84.Flatseal	2.3.0	stable	system
+Heroic Games Launcher	com.heroicgameslauncher.hgl	v2.15.2	stable	system
+IntelliJ IDEA Community	com.jetbrains.IntelliJ-IDEA-Community	2024.2.4	stable	system
+ZapZap	com.rtosta.zapzap	5.3.7	stable	system
+Spotify	com.spotify.Client	1.2.45.454.gc16ec9f6	stable	system
+Transmission	com.transmissionbt.Transmission	4.0.5	stable	system
+UltiMaker Cura	com.ultimaker.cura	5.8.1	stable	system
+Bottles	com.usebottles.bottles	51.15	stable	system
+Bruno	com.usebruno.Bruno	v1.34.2	stable	system
+Steam	com.valvesoftware.Steam	1.0.0.81	stable	system
+SteamTinkerLaunch	com.valvesoftware.Steam.Utility.steamtinkerlaunch	14.0.20241025-1	stable	system
+Shortwave	de.haeckerfelix.Shortwave	4.0.1	stable	system
+Vesktop	dev.vencord.Vesktop	1.5.3	stable	system
+HandBrake	fr.handbrake.ghb	1.8.2	stable	system
+Cameractrls	hu.irl.cameractrls	0.6.7	stable	system
+Beekeeper Studio	io.beekeeperstudio.Studio	4.6.2	stable	system
+AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.6.11	stable	system
+GDM Settings	io.github.realmazharhussain.GdmSettings	4.4	stable	system
+Zen	io.github.zen_browser.zen	1.0.1-a.18	stable	system
+Mission Center	io.missioncenter.MissionCenter	0.6.2	stable	system
+Podman Desktop	io.podman_desktop.PodmanDesktop	1.14.1	stable	system
+Obsidian	md.obsidian.Obsidian	1.7.5	stable	system
+ProtonUp-Qt	net.davidotek.pupgui2	2.10.0	stable	system
+PCSX2	net.pcsx2.PCSX2	v2.1.226	stable	system
+RPCS3	net.rpcs3.RPCS3	0.0.33-1-3e516df2	stable	system
+FileZilla	org.filezillaproject.Filezilla	3.66.1	stable	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.25	23.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.6	24.08	system
+i386	org.freedesktop.Platform.Compat.i386		23.08	system
+i386	org.freedesktop.Platform.Compat.i386		24.08	system
+Mesa	org.freedesktop.Platform.GL.default	24.2.5	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.2.5	23.08-extra	system
+Mesa	org.freedesktop.Platform.GL.default	24.2.6	24.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.2.6	24.08extra	system
+Mesa	org.freedesktop.Platform.GL32.default	24.2.5	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL32.default	24.2.5	23.08-extra	system
+Mesa	org.freedesktop.Platform.GL32.default	24.2.6	24.08	system
+gamescope	org.freedesktop.Platform.VulkanLayer.gamescope	3.14.24	23.08	system
+FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		23.08	system
+FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		24.08	system
+i386	org.freedesktop.Platform.ffmpeg_full.i386		24.08	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
+openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-23.08.25	23.08	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.6	24.08	system
+GNOME Application Platform version 46	org.gnome.Platform		46	system
+GNOME Application Platform version 47	org.gnome.Platform		47	system
+i386	org.gnome.Platform.Compat.i386		47	system
+Video Trimmer	org.gnome.gitlab.YaLTeR.VideoTrimmer	0.9.0	stable	system
+Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	system
+Adwaita theme	org.kde.KStyle.Adwaita		6.7	system
+KDE Application Platform	org.kde.Platform		6.7	system
+Prism Launcher	org.prismlauncher.PrismLauncher	9.1	stable	system
+UPnP Router Control	org.upnproutercontrol.UPnPRouterControl	0.3.4	stable	system
+gecko	org.winehq.Wine.gecko		stable-24.08	system
+mono	org.winehq.Wine.mono		stable-24.08	system
+osu!	sh.ppy.osu	2024.1009.1	stable	system
+XClicker	xyz.xclicker.xclicker	1.5.0	stable	system

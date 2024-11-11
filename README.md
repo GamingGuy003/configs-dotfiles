@@ -12,23 +12,26 @@ This contains my desktop Fedora Hyprland setup including a few of the utilities 
 
 Used tools are:
 - hyprland-git
+- hyprpaper
+- hyprpolkitagent
+- hyprlock
+- hyprshot
+- hyprpicker
 - fuzzel
 - kora-icon-theme
 - kitty
 - gnome qt theme
 - phinger cursors
 - waybar
-- hyprpaper
-- lxpolkit
 - kdeconnect
-- nextcloud desktop
+- nextcloud-client
 - openrgb
 - dunst
 - playerctl
 - input-remapper-control
 - nemo
-- hyprlock
-- hyprshot
 - copyq
+
+A list of `dnf list --installed` can be found in `packages` and a reformatted list ready to be used for dnf installs can be found in `packages_list`, aswell as all installed flatpaks in `flatpaks`
 
 ![Screenshot](./fedora/hyprland/screenshot.png)
