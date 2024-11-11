@@ -1,0 +1,126 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/fedora.png",
+        "type": "kitty",
+        "height": 15,
+        "width": 30,
+        "padding": {
+            "top": 5,
+            "left": 3
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": "│ \udb80\udf79",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "│ \uec19",
+            "showPeCoreCount": true,
+            "keyColor": "green"
+        },
+        {
+            "type": "gpu",
+            "key": "│ \udb82\udcae",
+            "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "│ \ue266",
+            "keyColor": "green"
+        },
+        {
+            "type": "disk",
+            "key": "│ \udb80\udeca",
+            "keyColor": "green"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": "│ \udb80\udf3d",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel",
+            "key": "│ \ueaf8",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "│ \udb80\udfd6",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "shell",
+            "key": "│ \uea85",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m│ "
+        },
+        {
+            "type": "de",
+            "key": "│ \udb82\ude07",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
+            "key": "│ \udb82\ude07",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wmtheme",
+            "key": "│ \uee26",
+            "keyColor": "blue"
+        },
+        {
+            "type": "gpu",
+            "key": "│ \udb83\udfb2",
+            "format": "{3}",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────Uptime / Age────────────────────┐"
+        },
+        {
+            "type": "command",
+            "key": "│ OS Age ",
+            "keyColor": "magenta",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "│ Uptime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
+        "break",
+    ]
+}
+
