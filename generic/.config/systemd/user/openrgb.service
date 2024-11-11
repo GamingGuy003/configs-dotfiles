@@ -3,7 +3,8 @@ Description=OpenRGB control
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/openrgb -c FFFFFF -m Static
+ExecStartPre=/usr/bin/openrgb -c FFFFFF -m Static
+ExecStart=/usr/bin/openrgb -d "Corsair Harpoon RGB PRO" -c 222222
 ExecStop=/usr/bin/openrgb -c 000000 -m Static
 RemainAfterExit=yes
 
