@@ -1,6 +1,24 @@
 {
-  "modules-right": ["group/perf", "pulseaudio", "clock", "tray", "custom/power"],
- 
+  "modules-right": ["mpris", "group/perf", "pulseaudio", "tray", "custom/power"],
+  
+  "mpris": {
+    "format": "{status_icon} {position}/{length}  {player_icon}",
+    "interval": 1,
+    "tooltip-format": "{dynamic}",
+    "on-click-middle": "playerctl play-pause",
+    "on-click": "playerctl next",
+    "on-click-right": "playerctl previous",
+    "player-icons": {
+      "default": "󰎆 ",
+      "spotify": "󰓇 ",
+      "kdeconnect": " "
+    },
+    "status-icons": {
+      "playing": " ",
+      "paused": " "
+    }
+  },
+
   "group/perf": {
     "orientation": "horizontal",
     "modules": ["memory", "cpu", "custom/gpu-usage"]
@@ -31,12 +49,7 @@
     "on-click": "pavucontrol",
     "ignored-sinks": ["Easy Effects Sink"]
   },
-
-  "clock": {
-    "format": "󰃭  {:%a %d.%m.%g  󰥔  %H:%M:%S}",
-    "interval": 1
-  },
-
+  
   "tray": {
       "show-passive-items": true,
       "spacing": 10
@@ -44,7 +57,7 @@
 
   "custom/power": {
     "format": "󰮫",
-    "on-click": "gamemoderun ~/.config/waybar/powermenu.sh",
+    "on-click": "~/.config/waybar/powermenu.sh",
     "tooltip": false
   }
 }

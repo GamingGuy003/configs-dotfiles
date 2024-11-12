@@ -1,6 +1,24 @@
 {
-  "modules-right": ["group/perf", "pulseaudio", "clock"],
-  
+  "modules-right": ["mpris", "group/perf", "pulseaudio"],
+
+  "mpris": {
+    "format": "{status_icon} {position}/{length}  {player_icon}",
+    "interval": 1,
+    "tooltip-format": "{dynamic}",
+    "on-click-middle": "playerctl play-pause",
+    "on-click": "playerctl next",
+    "on-click-right": "playerctl previous",
+    "player-icons": {
+      "default": "󰎆 ",
+      "spotify": "󰓇 ",
+      "kdeconnect": " "
+    },
+    "status-icons": {
+      "playing": " ",
+      "paused": " "
+    }
+  },
+
   "group/perf": {
     "orientation": "horizontal",
     "modules": ["memory", "cpu", "custom/gpu-usage"]
@@ -30,10 +48,5 @@
     "format-source-muted": "󰍭 {volume}%",
     "on-click": "pavucontrol",
     "ignored-sinks": ["Easy Effects Sink"]
-  },
- 
-  "clock": {
-    "format": "󰃭  {:%a %d.%m.%g  󰥔  %H:%M:%S}",
-    "interval": 1
-  }
+  } 
 }

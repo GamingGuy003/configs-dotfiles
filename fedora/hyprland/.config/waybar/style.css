@@ -42,9 +42,11 @@ window#waybar {
 #submap,
 #window,
 #perf,
+#mpris,
 #pulseaudio,
 #clock,
-#tray {
+#tray,
+#tray menu {
   color: #c0caf5;
 }
 
@@ -53,6 +55,7 @@ window#waybar {
 #submap,
 #window,
 #tray,
+#mpris,
 #perf,
 #pulseaudio,
 #clock {
@@ -63,10 +66,12 @@ window#waybar {
 #workspaces,
 #submap,
 #window,
-#perf,
 #memory,
 #cpu,
-#pulseaudio {
+#clock,
+#perf,
+#mpris,
+#tray {
   margin-right: 5px;
 }
 
@@ -77,7 +82,9 @@ window#waybar {
 #cpu,
 #custom-gpu-usage,
 #pulseaudio,
-#clock {
+#clock,
+#mpris,
+#custom-power {
   margin-left: 5px;
 }
 
@@ -88,7 +95,9 @@ window#waybar {
 #perf,
 #pulseaudio,
 #clock,
+#mpris,
 #tray,
+#tray menu,
 #custom-power {
   background: #1a1b26;
   border-radius: 5px;
@@ -112,8 +121,7 @@ window#waybar.empty #window {
 /* needed since we cant add padding right to the clock
  * or it would be offset on screens where it is the
  * right most element */
-#tray,
-#custom-power {
+#tray {
   margin-left: 10px;
 }
 
