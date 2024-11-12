@@ -1,5 +1,5 @@
 {
-  "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/submap"],
+  "modules-left": ["hyprland/workspaces", "hyprland/submap", "hyprland/window"],
 
   "hyprland/workspaces": {
     "active-only": "true",

@@ -2,7 +2,7 @@
   "modules-right": ["mpris", "group/perf", "pulseaudio", "tray", "custom/power"],
   
   "mpris": {
-    "format": "{status_icon} {position}/{length}  {player_icon}",
+    "format": "{status_icon}  {player_icon}",
     "interval": 1,
     "tooltip-format": "{dynamic}",
     "on-click-middle": "playerctl play-pause",
