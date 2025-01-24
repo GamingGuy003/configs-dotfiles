@@ -1,0 +1,43 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240707_152516
+====================================================================================================
+
+0     |Info:    Found file: white.orp attempting to validate header
+0     |Info:    Valid v4 profile found for white
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    |               Start device detection               |
+1002  |Info:    ------------------------------------------------------
+1002  |Info:    Initializing HID interfaces: Success
+1033  |Info:    ------------------------------------------------------
+1033  |Info:    |             Detecting I2C interfaces               |
+1033  |Info:    ------------------------------------------------------
+1042  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73DF Subsystem: 1EAE:6710
+1042  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1043  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1043  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1EAE:6710
+1043  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73DF Subsystem: 1EAE:6710
+1043  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1EAE:6710
+1043  |Info:    ------------------------------------------------------
+1043  |Info:    |               Detecting I2C devices                |
+1043  |Info:    ------------------------------------------------------
+1046  |Info:    ------------------------------------------------------
+1046  |Info:    |               Detecting I2C PCI devices            |
+1046  |Info:    ------------------------------------------------------
+1047  |Info:    ------------------------------------------------------
+1047  |Info:    |               Detecting HID devices                |
+1047  |Info:    ------------------------------------------------------
+1223  |Info:    [B550 GAMING X V2] Registering RGB controller
+1235  |Info:    [Glorious Model O / O-] Registering RGB controller
+1235  |Info:    ------------------------------------------------------
+1235  |Info:    |            Detecting libusb HID devices            |
+1235  |Info:    ------------------------------------------------------
+1236  |Info:    ------------------------------------------------------
+1236  |Info:    |              Detecting other devices               |
+1236  |Info:    ------------------------------------------------------
+1245  |Info:    ------------------------------------------------------
+1245  |Info:    |                Detection completed                 |
+1245  |Info:    ------------------------------------------------------
+1245  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+19207 |Info:    Found file: white.orp attempting to validate header
+19207 |Info:    Valid v4 profile found for white

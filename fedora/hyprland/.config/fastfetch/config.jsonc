@@ -18,28 +18,28 @@
         },
         {
             "type": "host",
-            "key": "│ \udb80\udf79",
+            "key": "│ \udb80\udf79 ",
             "keyColor": "green"
         },
         {
             "type": "cpu",
-            "key": "│ \uec19",
+            "key": "│ \uec19 ",
             "showPeCoreCount": true,
             "keyColor": "green"
         },
         {
             "type": "gpu",
-            "key": "│ \udb82\udcae",
+            "key": "│ \udb82\udcae ",
             "keyColor": "green"
         },
         {
             "type": "memory",
-            "key": "│ \ue266",
+            "key": "│ \ue266 ",
             "keyColor": "green"
         },
         {
             "type": "disk",
-            "key": "│ \udb80\udeca",
+            "key": "│ \udb80\udeca ",
             "keyColor": "green"
         },
         {
@@ -53,22 +53,22 @@
         },
         {
             "type": "os",
-            "key": "│ \udb80\udf3d",
+            "key": "│ \udb80\udf3d ",
             "keyColor": "yellow"
         },
         {
             "type": "kernel",
-            "key": "│ \ueaf8",
+            "key": "│ \ueaf8 ",
             "keyColor": "yellow"
         },
         {
             "type": "packages",
-            "key": "│ \udb80\udfd6",
+            "key": "│ \udb80\udfd6 ",
             "keyColor": "yellow"
         },
         {
             "type": "shell",
-            "key": "│ \uea85",
+            "key": "│ \uea85 ",
             "keyColor": "yellow"
         },
         {
@@ -77,22 +77,22 @@
         },
         {
             "type": "de",
-            "key": "│ \udb82\ude07",
+            "key": "│ \udb82\ude07 ",
             "keyColor": "blue"
         },
         {
             "type": "wm",
-            "key": "│ \udb82\ude07",
+            "key": "│ \udb82\ude07 ",
             "keyColor": "blue"
         },
         {
             "type": "wmtheme",
-            "key": "│ \uee26",
+            "key": "│ \uee26 ",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
-            "key": "│ \udb83\udfb2",
+            "key": "│ \udb83\udfb2 ",
             "format": "{3}",
             "keyColor": "blue"
         },

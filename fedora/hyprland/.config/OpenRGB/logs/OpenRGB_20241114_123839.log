@@ -1,0 +1,43 @@
+    OpenRGB v0.91
+    Commit:  from 
+    Launched: 20241114_123839
+====================================================================================================
+
+1040  |Info:    Initializing HID interfaces: Success
+1042  |Info:    ------------------------------------------------------
+1042  |Info:    |               Start device detection               |
+1042  |Info:    ------------------------------------------------------
+1047  |Info:    ------------------------------------------------------
+1047  |Info:    |             Detecting I2C interfaces               |
+1047  |Info:    ------------------------------------------------------
+1047  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73DF Subsystem: 1EAE:6710
+1047  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:73DF Subsystem: 1EAE:6710
+1047  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1047  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1047  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1047  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1047  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1EAE:6710
+1047  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73DF Subsystem: 1EAE:6710
+1048  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73DF Subsystem: 1EAE:6710
+1048  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1048  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1048  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1EAE:6710
+1048  |Info:    ------------------------------------------------------
+1048  |Info:    |               Detecting I2C devices                |
+1048  |Info:    ------------------------------------------------------
+1093  |Info:    ------------------------------------------------------
+1093  |Info:    |               Detecting I2C PCI devices            |
+1093  |Info:    ------------------------------------------------------
+1093  |Info:    ------------------------------------------------------
+1093  |Info:    |               Detecting HID devices                |
+1093  |Info:    ------------------------------------------------------
+1272  |Info:    [B550 GAMING X V2] Registering RGB controller
+1272  |Info:    ------------------------------------------------------
+1272  |Info:    |            Detecting libusb HID devices            |
+1272  |Info:    ------------------------------------------------------
+1272  |Info:    ------------------------------------------------------
+1272  |Info:    |              Detecting other devices               |
+1272  |Info:    ------------------------------------------------------
+1289  |Info:    ------------------------------------------------------
+1289  |Info:    |                Detection completed                 |
+1289  |Info:    ------------------------------------------------------

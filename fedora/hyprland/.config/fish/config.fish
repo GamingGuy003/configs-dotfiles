@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
   date
   alias q='exit'
+  alias y='yazi'
   alias power='sudo poweroff'
   alias powerpower='sudo reboot'
   alias lg='lazygit'

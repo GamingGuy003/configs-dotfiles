@@ -623,7 +623,7 @@
         //     }
         "shell": "system",
         // Where to dock terminals panel. Can be `left`, `right`, `bottom`.
-        "dock": "right",
+        "dock": "bottom",
         // Default width when the terminal is docked to the left or right.
         "default_width": 480,
         // Default height when the terminal is docked to the bottom.
@@ -712,13 +712,13 @@
         "toolbar": {
             // Whether to display the terminal title in its toolbar.
             "title": true
-        }
+        },
         // Set the terminal's font size. If this option is not included,
         // the terminal will default to matching the buffer's font size.
         // "font_size": 15,
         // Set the terminal's font family. If this option is not included,
         // the terminal will default to matching the buffer's font family.
-        // "font_family": "Zed Plex Mono",
+        "font_family": "Fira Code"
         // Set the terminal's font fallbacks. If this option is not included,
         // the terminal will default to matching the buffer's font fallbacks.
         // This will be merged with the platform's default font fallbacks

@@ -1,0 +1,48 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240725_200527
+====================================================================================================
+
+3     |Info:    Found file: white.orp attempting to validate header
+5     |Info:    Valid v4 profile found for white
+1308  |Info:    ------------------------------------------------------
+1308  |Info:    |               Start device detection               |
+1308  |Info:    ------------------------------------------------------
+1308  |Info:    Initializing HID interfaces: Success
+1313  |Info:    ------------------------------------------------------
+1313  |Info:    |             Detecting I2C interfaces               |
+1313  |Info:    ------------------------------------------------------
+1313  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73DF Subsystem: 1EAE:6710
+1314  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:73DF Subsystem: 1EAE:6710
+1314  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1314  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1314  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1314  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1314  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1EAE:6710
+1314  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73DF Subsystem: 1EAE:6710
+1314  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73DF Subsystem: 1EAE:6710
+1314  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1314  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1314  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1EAE:6710
+1314  |Info:    ------------------------------------------------------
+1314  |Info:    |               Detecting I2C devices                |
+1314  |Info:    ------------------------------------------------------
+1355  |Info:    ------------------------------------------------------
+1355  |Info:    |               Detecting I2C PCI devices            |
+1355  |Info:    ------------------------------------------------------
+1355  |Info:    ------------------------------------------------------
+1355  |Info:    |               Detecting HID devices                |
+1355  |Info:    ------------------------------------------------------
+1532  |Info:    [B550 GAMING X V2] Registering RGB controller
+1543  |Info:    [Glorious Model O / O-] Registering RGB controller
+1543  |Info:    ------------------------------------------------------
+1543  |Info:    |            Detecting libusb HID devices            |
+1543  |Info:    ------------------------------------------------------
+1543  |Info:    ------------------------------------------------------
+1543  |Info:    |              Detecting other devices               |
+1543  |Info:    ------------------------------------------------------
+1562  |Info:    ------------------------------------------------------
+1562  |Info:    |                Detection completed                 |
+1562  |Info:    ------------------------------------------------------
+1562  |Info:    Profile loading: Succeeded for B550 GAMING X V2 @ HID: /dev/hidraw2
+1562  |Info:    Profile loading: Succeeded for Glorious Model O / O- @ HID: /dev/hidraw7

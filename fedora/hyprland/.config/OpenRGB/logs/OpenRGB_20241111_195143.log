@@ -1,0 +1,33 @@
+    OpenRGB v0.91
+    Commit:  from 
+    Launched: 20241111_195143
+====================================================================================================
+
+1036  |Info:    Initializing HID interfaces: Success
+1038  |Info:    ------------------------------------------------------
+1038  |Info:    |               Start device detection               |
+1038  |Info:    ------------------------------------------------------
+1046  |Info:    ------------------------------------------------------
+1046  |Info:    |             Detecting I2C interfaces               |
+1046  |Info:    ------------------------------------------------------
+1046  |Info:    Registering I2C interface: /dev/i2c-3 Device 1002:73DF Subsystem: 1EAE:6710
+1046  |Info:    Registering I2C interface: /dev/i2c-1 Device 1002:73DF Subsystem: 1EAE:6710
+1046  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1046  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1046  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1046  |Info:    Registering I2C interface: /dev/i2c-6 Device 0000:0000 Subsystem: 0000:0000
+1046  |Info:    Registering I2C interface: /dev/i2c-4 Device 1002:73DF Subsystem: 1EAE:6710
+1046  |Info:    Registering I2C interface: /dev/i2c-2 Device 1002:73DF Subsystem: 1EAE:6710
+1047  |Info:    Registering I2C interface: /dev/i2c-0 Device 1002:73DF Subsystem: 1EAE:6710
+1047  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1047  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1047  |Info:    Registering I2C interface: /dev/i2c-5 Device 1002:73DF Subsystem: 1EAE:6710
+1047  |Info:    ------------------------------------------------------
+1047  |Info:    |               Detecting I2C devices                |
+1047  |Info:    ------------------------------------------------------
+1092  |Info:    ------------------------------------------------------
+1092  |Info:    |               Detecting I2C PCI devices            |
+1092  |Info:    ------------------------------------------------------
+1093  |Info:    ------------------------------------------------------
+1093  |Info:    |               Detecting HID devices                |
+1093  |Info:    ------------------------------------------------------
