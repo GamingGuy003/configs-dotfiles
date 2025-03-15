@@ -1,71 +1,77 @@
-Moosync	app.moosync.moosync	10.3.2	stable	flathub	system
-Zen	app.zen_browser.zen	1.7.2b	stable	flathub	system
-Bitwarden	com.bitwarden.desktop	2025.1.0	stable	flathub	system
-Portal for Teams	com.github.IsmaelMartinez.teams_for_linux	1.12.6	stable	flathub	system
-Protontricks	com.github.Matoking.protontricks	1.12.0	stable	flathub	system
+Bitwarden	com.bitwarden.desktop	2025.2.1	stable	flathub	system
+Portal for Teams	com.github.IsmaelMartinez.teams_for_linux	1.12.7	stable	flathub	system
+Protontricks	com.github.Matoking.protontricks	1.12.1	stable	flathub	system
 Flatseal	com.github.tchx84.Flatseal	2.3.0	stable	flathub	system
-Heroic Games Launcher	com.heroicgameslauncher.hgl	v2.15.2	stable	flathub	system
-IntelliJ IDEA Community	com.jetbrains.IntelliJ-IDEA-Community	2024.3.2	stable	flathub	system
+Heroic Games Launcher	com.heroicgameslauncher.hgl	v2.16.1	stable	flathub	system
+IntelliJ IDEA Community	com.jetbrains.IntelliJ-IDEA-Community	2024.3.4.1	stable	flathub	system
 Whatsie	com.ktechpit.whatsie	4.16.3	stable	flathub	system
 talk	com.nextcloud.talk		stable	talk-origin	system
-Spotify	com.spotify.Client	1.2.50.335.g5e2860a8	stable	flathub	system
+Spotify	com.spotify.Client	1.2.56.502.ga68d2d4f	stable	flathub	system
 Transmission	com.transmissionbt.Transmission	4.0.6	stable	flathub	system
-UltiMaker Cura	com.ultimaker.cura	5.9.0	stable	flathub	system
-Bottles	com.usebottles.bottles	51.18	stable	flathub	system
-Bruno	com.usebruno.Bruno	v1.37.0	stable	flathub	system
+UltiMaker Cura	com.ultimaker.cura	5.9.1	stable	flathub	system
+Bottles	com.usebottles.bottles	51.20	stable	flathub	system
+Bruno	com.usebruno.Bruno	v1.39.1	stable	flathub	system
 Steam	com.valvesoftware.Steam	1.0.0.81	stable	flathub	system
 SteamTinkerLaunch	com.valvesoftware.Steam.Utility.steamtinkerlaunch	14.0.20241228-1	stable	flathub	system
-ProtonPlus	com.vysp3r.ProtonPlus	0.4.20	stable	flathub	system
-Shortwave	de.haeckerfelix.Shortwave	4.0.1	stable	flathub	system
-Vesktop	dev.vencord.Vesktop	1.5.3	stable	flathub	system
-HandBrake	fr.handbrake.ghb	1.9.0	stable	flathub	system
+ProtonPlus	com.vysp3r.ProtonPlus	0.4.27	stable	flathub	system
+Shortwave	de.haeckerfelix.Shortwave	5.0.0	stable	flathub	system
+Vesktop	dev.vencord.Vesktop	1.5.5	stable	flathub	system
+HandBrake	fr.handbrake.ghb	1.9.2	stable	flathub	system
 Cameractrls	hu.irl.cameractrls	0.6.7	stable	flathub	system
-Beekeeper Studio	io.beekeeperstudio.Studio	4.6.2	stable	flathub	system
-AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.7.2	stable	flathub	system
+Beekeeper Studio	io.beekeeperstudio.Studio	5.0.9	stable	flathub	system
+AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	flathub	system
 GDM Settings	io.github.realmazharhussain.GdmSettings	5.0	stable	flathub	system
+LibreWolf	io.gitlab.librewolf-community	136.0.1-1	stable	flathub	system
 Upscaler	io.gitlab.theevilskeleton.Upscaler	1.4.1	stable	flathub	system
-Podman Desktop	io.podman_desktop.PodmanDesktop	1.15.0	stable	flathub	system
-Obsidian	md.obsidian.Obsidian	1.7.7	stable	flathub	system
+Podman Desktop	io.podman_desktop.PodmanDesktop	1.17.1	stable	flathub	system
+Obsidian	md.obsidian.Obsidian	1.8.9	stable	flathub	system
 Resources	net.nokyan.Resources	1.7.1	stable	flathub	system
 PCSX2	net.pcsx2.PCSX2	v2.2.0	stable	flathub	system
 FileZilla	org.filezillaproject.Filezilla	3.66.1	stable	flathub	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.27	23.08	flathub	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.10	24.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.28	23.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.15	24.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.15	24.08	flathub	user
 i386	org.freedesktop.Platform.Compat.i386		23.08	flathub	system
 i386	org.freedesktop.Platform.Compat.i386		24.08	flathub	system
-Mesa	org.freedesktop.Platform.GL.default	24.3.1	23.08	flathub	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.1	23.08-extra	flathub	system
-Mesa	org.freedesktop.Platform.GL.default	24.3.1	24.08	flathub	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.1	24.08extra	flathub	system
-Mesa	org.freedesktop.Platform.GL32.default	24.3.1	23.08	flathub	system
-Mesa	org.freedesktop.Platform.GL32.default	24.3.1	24.08	flathub	system
-Mesa (Extra)	org.freedesktop.Platform.GL32.default	24.3.1	24.08extra	flathub	system
-MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.7.2	24.08	flathub	system
-gamescope	org.freedesktop.Platform.VulkanLayer.gamescope	3.16.1	23.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	24.3.4	23.08	flathub	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	23.08-extra	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	24.3.4	24.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	24.3.4	24.08	flathub	user
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	24.08extra	flathub	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	24.08extra	flathub	user
+Mesa	org.freedesktop.Platform.GL32.default	24.3.4	23.08	flathub	system
+Mesa	org.freedesktop.Platform.GL32.default	24.3.4	24.08	flathub	system
+Mesa (Extra)	org.freedesktop.Platform.GL32.default	24.3.4	24.08extra	flathub	system
+MangoHud	org.freedesktop.Platform.VulkanLayer.MangoHud	0.8.1	24.08	flathub	system
+vkBasalt	org.freedesktop.Platform.VulkanLayer.vkBasalt	0.3.2.10	24.08	flathub	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		23.08	flathub	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		24.08	flathub	system
 i386	org.freedesktop.Platform.ffmpeg_full.i386		24.08	flathub	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	flathub	system
 openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	flathub	system
-Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-23.08.27	23.08	flathub	system
-Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.10	24.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	flathub	user
+openh264	org.freedesktop.Platform.openh264	2.5.1	2.5.1	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.5.1	2.5.1	flathub	user
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-23.08.28	23.08	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.15	24.08	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.15	24.08	flathub	user
 GNOME Application Platform version 46	org.gnome.Platform		46	flathub	system
 GNOME Application Platform version 47	org.gnome.Platform		47	flathub	system
 i386	org.gnome.Platform.Compat.i386		47	flathub	system
 Video Trimmer	org.gnome.gitlab.YaLTeR.VideoTrimmer	0.9.0	stable	flathub	system
 Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	flathub	system
+Adwaita dark GTK theme	org.gtk.Gtk3theme.Adwaita-dark		3.22	flathub	user
 adw-gtk3 Gtk Theme	org.gtk.Gtk3theme.adw-gtk3		3.22	flathub	system
 adw-gtk3-dark Gtk Theme	org.gtk.Gtk3theme.adw-gtk3-dark		3.22	flathub	system
 Adwaita theme	org.kde.KStyle.Adwaita		6.7	flathub	system
-KDE Application Platform	org.kde.Platform		5.15-23.08	flathub	system
 KDE Application Platform	org.kde.Platform		5.15-24.08	flathub	system
 KDE Application Platform	org.kde.Platform		6.7	flathub	system
 KDE Application Platform	org.kde.Platform		6.8	flathub	system
 Prism Launcher	org.prismlauncher.PrismLauncher	9.2	stable	flathub	system
-Signal Desktop	org.signal.Signal	7.39.0	stable	flathub	system
+Signal Desktop	org.signal.Signal	7.46.0	stable	flathub	system
 UPnP Router Control	org.upnproutercontrol.UPnPRouterControl	0.3.4	stable	flathub	system
 gecko	org.winehq.Wine.gecko		stable-24.08	flathub	system
 mono	org.winehq.Wine.mono		stable-24.08	flathub	system
-Cartridges	page.kramo.Cartridges	2.10.1	stable	flathub	system
-osu!	sh.ppy.osu	2025.118.2	stable	flathub	system
+Cartridges	page.kramo.Cartridges	2.11.1	stable	flathub	system
+osu!	sh.ppy.osu	2025.310.0	stable	flathub	system
 XClicker	xyz.xclicker.xclicker	1.5.0	stable	flathub	system
