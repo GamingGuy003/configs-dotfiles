@@ -1,0 +1,2 @@
+[General]
+commands="@ByteArray({\"_10cf16ea_bcce_47fd_ac21_1419cce70c7f_\":{\"command\":\"systemctl --user restart openrgb\",\"name\":\"rgb\"},\"_c1b863fb_9913_459b_95fe_33f30ac85736_\":{\"command\":\"hyprlock\",\"name\":\"lock\"},\"_e2df6e7a_ce82_4687_949b_f04b4da7c615_\":{\"command\":\"wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle\",\"name\":\"mute\"}})"
