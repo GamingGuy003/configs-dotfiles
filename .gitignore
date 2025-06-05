@@ -4,3 +4,4 @@
 *.pub
 *.lock
 *.pem
+*trusted_devices
