@@ -11,6 +11,7 @@ max_icon_size = 64
 corner_radius = 5
 origin = top-right
 offset = 10x10
+monitor = 1
 
 [urgency_low]
 background = #1a1b26
