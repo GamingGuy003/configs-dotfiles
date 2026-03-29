@@ -1,0 +1,10 @@
+[copr:copr.fedorainfracloud.org:lnvso:new-lg4ff]
+name=Copr repo for new-lg4ff owned by lnvso
+baseurl=https://download.copr.fedorainfracloud.org/results/lnvso/new-lg4ff/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/lnvso/new-lg4ff/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1

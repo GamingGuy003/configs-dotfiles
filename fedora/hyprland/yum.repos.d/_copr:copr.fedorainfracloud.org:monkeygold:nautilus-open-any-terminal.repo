@@ -1,0 +1,10 @@
+[copr:copr.fedorainfracloud.org:monkeygold:nautilus-open-any-terminal]
+name=Copr repo for nautilus-open-any-terminal owned by monkeygold
+baseurl=https://download.copr.fedorainfracloud.org/results/monkeygold/nautilus-open-any-terminal/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/monkeygold/nautilus-open-any-terminal/pubkey.gpg
+repo_gpgcheck=0
+enabled=0
+enabled_metadata=1
