@@ -3,22 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="smb://192.168.5.193/mods/" added="2024-11-20T23:14:04.404248Z" modified="2024-11-20T23:14:04.404251Z" visited="2024-11-20T23:14:04.404249Z">
-    <title>mods on 192.168.5.193</title>
+  <bookmark href="smb://192.168.5.55/backup/" added="2026-03-18T20:58:59.167922Z" modified="2026-03-18T20:58:59.167925Z" visited="2026-03-18T20:58:59.167923Z">
+    <title>backup on 192.168.5.55</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-11-20T23:14:04.404250Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="smb://192.168.5.2/publicshare/" added="2024-11-23T00:40:01.293848Z" modified="2024-11-23T00:40:01.293852Z" visited="2024-11-23T00:40:01.293850Z">
-    <title>publicshare on 192.168.5.2</title>
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-11-23T00:40:01.293851Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2026-03-18T20:58:59.167924Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

@@ -25,7 +25,7 @@
   },
 
   "memory": {
-    "format": "  {}%",
+    "format": "󱍁  {}%",
     "interval": 2
   },
 
@@ -46,7 +46,7 @@
     "format-muted": "󰖁  muted",
     "format-source": "󰍬 {volume}%",
     "format-source-muted": "󰍭 {volume}%",
-    "on-click": "pavucontrol",
+    "on-click": "hyprpwcenter",
     "ignored-sinks": ["Easy Effects Sink"]
   } 
 }

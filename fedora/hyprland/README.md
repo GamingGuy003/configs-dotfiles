@@ -8,6 +8,8 @@ Used tools are:
 - hyprshot (custom repo)
 - hyprpicker (custom repo)
 - hyprpolkitagent (custom repo) / lxpolkit
+- hyprpwcenter (custom repo)
+- hyprshutdown
 - playerctl 
 - dunst
 - fuzzel

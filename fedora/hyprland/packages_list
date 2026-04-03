@@ -976,10 +976,14 @@ hyphen-en.noarch                                                                
 hyprcursor.x86_64                                                                        0.1.13-2.fc43                                                   copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprgraphics.x86_64                                                                      0.5.0-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland.x86_64                                                                          0.54.3-1.fc43                                                   copr:copr.fedorainfracloud.org:lionheartp:Hyprland
+hyprland-guiutils.x86_64                                                                 0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
+hyprland-qt-support.x86_64                                                               0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprlang.x86_64                                                                          0.6.8-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprlock.x86_64                                                                          0.9.3-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpaper.x86_64                                                                         0.8.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpicker.x86_64                                                                        0.4.6-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
+hyprpolkitagent.x86_64                                                                   0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
+hyprpwcenter.x86_64                                                                      0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprshot.noarch                                                                          1.3.0-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprtoolkit.x86_64                                                                       0.5.3-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprutils.x86_64                                                                         0.11.1-1.fc43                                                   copr:copr.fedorainfracloud.org:lionheartp:Hyprland
@@ -25440,8 +25444,6 @@ hyprland-git-devel.x86_64                                                       
 hyprland-git-uwsm.x86_64                                                                 0.54.3^1.git38a7f03-1.fc43                                      copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-guiutils.src                                                                    0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-guiutils.src                                                                    0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprland-guiutils.x86_64                                                                 0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprland-guiutils.x86_64                                                                 0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-guiutils-debuginfo.x86_64                                                       0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-guiutils-debuginfo.x86_64                                                       0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-guiutils-debugsource.x86_64                                                     0.2.1-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
@@ -25496,8 +25498,6 @@ hyprland-protocols-devel.noarch                                                 
 hyprland-protocols-devel.noarch                                                          0.7.0-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-qt-support.src                                                                  0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-qt-support.src                                                                  0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprland-qt-support.x86_64                                                               0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprland-qt-support.x86_64                                                               0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-qt-support-debuginfo.x86_64                                                     0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-qt-support-debuginfo.x86_64                                                     0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprland-qt-support-debugsource.x86_64                                                   0.1.0-9.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
@@ -25536,8 +25536,6 @@ hyprpicker-debugsource.x86_64                                                   
 hyprpicker-debugsource.x86_64                                                            0.4.6-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpolkitagent.src                                                                      0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpolkitagent.src                                                                      0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprpolkitagent.x86_64                                                                   0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprpolkitagent.x86_64                                                                   0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpolkitagent-debuginfo.x86_64                                                         0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpolkitagent-debuginfo.x86_64                                                         0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpolkitagent-debugsource.x86_64                                                       0.1.3-2.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
@@ -25546,8 +25544,6 @@ hyprprop.noarch                                                                 
 hyprprop.noarch                                                                          0.1^81.gitdb18f83-1.fc43                                        copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpwcenter.src                                                                         0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpwcenter.src                                                                         0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprpwcenter.x86_64                                                                      0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
-hyprpwcenter.x86_64                                                                      0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpwcenter-debuginfo.x86_64                                                            0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpwcenter-debuginfo.x86_64                                                            0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
 hyprpwcenter-debugsource.x86_64                                                          0.1.2-1.fc43                                                    copr:copr.fedorainfracloud.org:lionheartp:Hyprland
