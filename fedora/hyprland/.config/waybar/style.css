@@ -9,7 +9,8 @@
  */
 
 * {
-  font-family: "jetbrains-nerd-fonts-mono";
+  font-family: "Cantarell", "Font Awesome 6 Free", "Font Awesome 6 Brand", sans-serif;
+  font-size: 14;
 }
 
 window#waybar {
@@ -48,6 +49,7 @@ window#waybar {
 #tray,
 #tray menu {
   color: #c0caf5;
+  background-color: #272731;
 }
 
 

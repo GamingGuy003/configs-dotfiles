@@ -2,7 +2,7 @@
   "modules-center": ["clock"],
 
   "clock": {
-    "format": "󰃭  {:%a %d.%m.%g  󰥔  %H:%M:%S}",
+    "format": "  {:%a %d.%m.%g    %H:%M:%S}",
     "interval": 1,
     "on-click": "hyprctl dispatch exec 'evolution -c calendar'"
   }

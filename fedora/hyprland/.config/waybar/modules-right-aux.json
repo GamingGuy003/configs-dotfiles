@@ -25,27 +25,27 @@
   },
 
   "memory": {
-    "format": "󱍁  {}%",
+    "format": "  {}%",
     "interval": 2
   },
 
   "cpu": {
-    "format": "  {usage}%",
+    "format": "  {usage}%",
     "interval": 1
   },
 
   "custom/gpu-usage": {
-    "exec": "cat /sys/class/hwmon/hwmon1/device/gpu_busy_percent",
-    "format": "󰢮  {}%",
+    "exec": "cat /sys/class/hwmon/hwmon3/device/gpu_busy_percent",
+    "format": "  {}%",
     "return-type": "",
     "interval": 1
   },
   
   "pulseaudio": {
-    "format": "󰕾  {volume}%   {format_source}",
-    "format-muted": "󰖁  muted",
-    "format-source": "󰍬 {volume}%",
-    "format-source-muted": "󰍭 {volume}%",
+    "format": "  {volume}%   {format_source}",
+    "format-muted": "  muted",
+    "format-source": " {volume}%",
+    "format-source-muted": " {volume}%",
     "on-click": "hyprpwcenter",
     "ignored-sinks": ["Easy Effects Sink"]
   } 
