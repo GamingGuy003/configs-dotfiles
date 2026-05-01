@@ -1,0 +1,8 @@
+[adoptium-temurin-java-repository]
+name=Adoptium
+baseurl=https://packages.adoptium.net/artifactory/rpm/fedora/$releasever/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://packages.adoptium.net/artifactory/api/gpg/key/public
+enabled_metadata=1
+
