@@ -1,19 +1,3 @@
--- german
-hl.bind("SUPER + O", hl.dsp.exec_raw("wtype ö"))
-hl.bind("SUPER + A", hl.dsp.exec_raw("wtype ä"))
-hl.bind("SUPER + U", hl.dsp.exec_raw("wtype ü"))
-hl.bind("SUPER + SHIFT + O", hl.dsp.exec_raw("wtype Ö"))
-hl.bind("SUPER + SHIFT + A", hl.dsp.exec_raw("wtype Ä"))
-hl.bind("SUPER + SHIFT + U", hl.dsp.exec_raw("wtype Ü"))
-
--- italian
-hl.bind("SUPER + CTRL + E", hl.dsp.exec_raw("wtype è"))
-hl.bind("SUPER + CTRL + ALT + E", hl.dsp.exec_raw("wtype é"))
-hl.bind("SUPER + CTRL + I", hl.dsp.exec_raw("wtype í"))
-hl.bind("SUPER + CTRL + O", hl.dsp.exec_raw("wtype ò"))
-hl.bind("SUPER + CTRL + U", hl.dsp.exec_raw("wtype ù"))
-hl.bind("SUPER + CTRL + SHIFT + E", hl.dsp.exec_raw("wtype €"))
-
 -- system binds
 hl.bind("SUPER + Return", hl.dsp.exec_raw("kitty"))
 hl.bind("SUPER + Q", hl.dsp.window.close())
@@ -64,6 +48,7 @@ hl.bind("SUPER + right", hl.dsp.focus({ direction = "r" }))
 hl.bind("SUPER + up", hl.dsp.focus({ direction = "u" }))
 hl.bind("SUPER + down", hl.dsp.focus({ direction = "d" }))
 hl.bind("ALT + TAB", hl.dsp.focus({ last = true }))
+hl.bind("SUPER + TAB", hl.dsp.exec_raw("~/.config/hypr/window_switcher.sh"))
 
 -- swap windows
 hl.bind("SUPER + SHIFT + left", hl.dsp.window.swap({ direction = "l" }))

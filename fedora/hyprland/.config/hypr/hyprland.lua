@@ -12,6 +12,10 @@ require("modules.rules")
 -- core hyprland config
 hl.config({
 	input = {
+		kb_layout = "us",
+		kb_variant = "",
+		kb_model = "",
+		kb_options = "compose:rctrl",
 		accel_profile = "flat",
 		touchpad = {
 			natural_scroll = true,
@@ -57,7 +61,7 @@ hl.config({
 	},
 	master = {
 		orientation = "left",
-		mfact = 0.5,
+		mfact = 0.70,
 	},
 })
 

@@ -1,6 +1,6 @@
 hl.on("hyprland.start", function()
 	-- essential components
-	hl.exec_cmd("$HOME/.config/waybar/waybar.sh")
+	hl.exec_cmd("~/.config/waybar/waybar.sh")
 	hl.exec_cmd("hyprpaper")
 	hl.exec_cmd("kdeconnect-cli --refresh")
 	hl.exec_cmd("kdeconnect-indicator")

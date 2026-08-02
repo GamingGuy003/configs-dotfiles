@@ -6,15 +6,15 @@ windows=$(hyprctl clients | awk '/title:/{$1="";sub(/^ */, ""); gsub(/\([^)]+\)/
 len=$(echo "$windows" | wc -l)
 
 # cap items at 15
-if (( $len > 15 )); then
+if (($len > 15)); then
   len=15
 fi
 
 # fetch longest line
-max=$(echo "$windows" | awk '{ln=length} ln>max{max=ln} END {print max}' )
+max=$(echo "$windows" | awk '{ln=length} ln>max{max=ln} END {print max}')
 
 # cap width at 75
-if (( $max > 75 )); then
+if (($max > 75)); then
   max=75
 fi
 
@@ -27,4 +27,4 @@ if [ -z $choice ]; then
 fi
 
 # actually change window
-hyprctl dispatch focuswindow "title:$choice"
+hyprctl dispatch "hl.dsp.focus({ window = \"title:${choice}\" })"
