@@ -1,6 +1,8 @@
 [{
   "layer": "top",
   "output": "!DP-1",
+  "position": "top",
+  "exclusive": true,
 
   "include": [
     "$HOME/.config/waybar/modules-left.json",
@@ -10,6 +12,8 @@
 },{
   "layer": "top",
   "output": "DP-1",
+  "position": "top",
+  "exclusive": true,
 
   "include": [
     "$HOME/.config/waybar/modules-left.json",

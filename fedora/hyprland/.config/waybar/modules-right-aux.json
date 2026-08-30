@@ -9,13 +9,13 @@
     "on-click": "playerctl next",
     "on-click-right": "playerctl previous",
     "player-icons": {
-      "default": "󰎆 ",
-      "spotify": "󰓇 ",
-      "kdeconnect": " "
+      "default": "",
+      "spotify": "",
+      "kdeconnect": ""
     },
     "status-icons": {
-      "playing": " ",
-      "paused": " "
+      "playing": "",
+      "paused": ""
     }
   },
 
@@ -35,7 +35,7 @@
   },
 
   "custom/gpu-usage": {
-    "exec": "cat /sys/class/hwmon/hwmon3/device/gpu_busy_percent",
+    "exec": "sh -c 'cat \"$GPU_PATH/device/gpu_busy_percent\"'",
     "format": "  {}%",
     "return-type": "",
     "interval": 1

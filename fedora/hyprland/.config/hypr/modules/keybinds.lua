@@ -56,6 +56,12 @@ hl.bind("SUPER + SHIFT + right", hl.dsp.window.swap({ direction = "r" }))
 hl.bind("SUPER + SHIFT + up", hl.dsp.window.swap({ direction = "u" }))
 hl.bind("SUPER + SHIFT + down", hl.dsp.window.swap({ direction = "d" }))
 
+-- move windows
+hl.bind("SUPER + SHIFT + ALT + left", hl.dsp.window.move({ direction = "l" }))
+hl.bind("SUPER + SHIFT + ALT + right", hl.dsp.window.move({ direction = "r" }))
+hl.bind("SUPER + SHIFT + ALT + up", hl.dsp.window.move({ direction = "u" }))
+hl.bind("SUPER + SHIFT + ALT + down", hl.dsp.window.move({ direction = "d" }))
+
 for workspace = 1, 9 do
 	-- focus workspace
 	hl.bind("SUPER + " .. workspace, hl.dsp.focus({ workspace = workspace }))

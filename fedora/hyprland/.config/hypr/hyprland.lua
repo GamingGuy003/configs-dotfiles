@@ -61,7 +61,7 @@ hl.config({
 	},
 	master = {
 		orientation = "left",
-		mfact = 0.70,
+		mfact = 0.60,
 	},
 })
 

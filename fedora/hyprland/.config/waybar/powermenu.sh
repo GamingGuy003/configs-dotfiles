@@ -1,24 +1,24 @@
 #!/bin/bash
-choices="  Abort\\n  Lock\\n  Logout\\n  Reboot\\n  Reboot\\n  Poweroff"
+choices=" Abort\\n Lock\\n Logout\\n Reboot\\n Reboot\\n Poweroff"
 choice=$(echo -en $choices | fuzzel -d -l 6 -w 12 --log-level=info)
 case "$choice" in
-"  Lock")
+" Lock")
   hyprlock
   ;;
 #"󰍃 Logout") hyprctl dispatch exit
-"  Logout")
+" Logout")
   hyprshutdown
   ;;
-"  Reboot")
+" Reboot")
   hyprshutdown --post-cmd 'systemctl reboot'
   ;;
-"  Setup")
+" Setup")
   hyprshutdown --post-cmd 'systemctl reboot --firmware-setup'
   ;;
-"  Poweroff")
+" Poweroff")
   hyprshutdown --post-cmd 'systemctl poweroff'
   ;;
-"  Abort" | *)
+" Abort" | *)
   exit 0
   ;;
 esac
